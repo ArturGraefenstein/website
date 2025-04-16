@@ -1,6 +1,5 @@
 import Logo from "./Logo";
 import Navbar from "./Navbar";
-import SearchBar from "./SearchBar";
 import SocialMediaBar from "./SocialMediaBar";
 import Divider from "./Divider";
 
@@ -11,7 +10,6 @@ const Header = () => (
       <div className="flex flex-row items-center gap-8 md:gap-16 flex-shrink-0">
         <Navbar />
         <div className="flex flex-row items-center gap-4 md:gap-8 flex-shrink-0">
-          <SearchBar />
           <SocialMediaBar />
         </div>
       </div>
