@@ -6,12 +6,6 @@ const Navbar = () => (
     >
       Home
     </a>
-    <a
-      href="/blogs"
-      className="text-xl md:text-2xl font-mono text-white hover:underline"
-    >
-      Blogs
-    </a>
   </nav>
 );
 
