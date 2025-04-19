@@ -16,7 +16,10 @@
 - Bevorzuge wenn möglich Types over Interface.
 - Alle Dateien und Ordner werden in kebab-case geschrieben.
 - Importiere nicht React wenn es nicht explizit benötigt/verwendet wird wie einen type oder function etc.!
-- Verwende immer yarn als packagemanager
+- Verwende immer yarn als packagemanager.
+- Wenn du einen type inportierst, verwende den type import.
+- Beachte alle Biome lint regeln.
+- Bachte die types von PandaCSS. Nicht alle styleProps können einen String akzeptieren wie z.B. die "transisiton" Prop.
 - Wenn die Config geändert wird, prüfe ob auch etwas an der storybook config geändert werden muss um gleiche Ergebnisse zu erzielen zwischen web und storybook
 - führe keine PandaCSS commands aus weil die styles und types per watch ständig neu generiert werden.
 - Code Struktur:
