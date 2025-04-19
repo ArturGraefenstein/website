@@ -19,7 +19,7 @@ import {
   heroRightNameStyles,
   heroRightRoleStyles,
   heroRightTextStyles,
-  heroRightHighlightsStyles,
+  heroRightHighlightsStyles
 } from "./HeroSection.styles";
 
 // Icons als Platzhalter, falls react-icons nicht installiert ist, bitte installieren oder durch eigene SVGs ersetzen
@@ -46,7 +46,9 @@ const HeroSection = () => (
           </div>
           {/* Name & Rolle */}
           <div className={heroProfileNameStyles()}>
-            <span className={heroProfileRoleStyles()}>Artur Gräfenstein</span>
+            <span className={heroProfileRoleStyles()}>
+              Artur Gräfenstein
+            </span>
             <span className={heroProfileRoleStyles({ variant: "role" })}>
               Web Developer
             </span>
@@ -64,7 +66,10 @@ const HeroSection = () => (
           {/* Skills-Labels */}
           <div className={heroSkillsListStyles()}>
             {skills.map((skill) => (
-              <span key={skill} className={heroSkillStyles()}>
+              <span
+                key={skill}
+                className={heroSkillStyles()}
+              >
                 {skill}
               </span>
             ))}
@@ -76,9 +81,15 @@ const HeroSection = () => (
         <div className={heroRightColStyles()}>
           {/* Begrüßung, Name, Rolle */}
           <div className={heroRightHeaderStyles()}>
-            <span className={heroRightHiStyles()}>Hi, ich bin</span>
-            <span className={heroRightNameStyles()}>Artur Gräfenstein</span>
-            <span className={heroRightRoleStyles()}>Web Developer</span>
+            <span className={heroRightHiStyles()}>
+              Hi, ich bin
+            </span>
+            <span className={heroRightNameStyles()}>
+              Artur Gräfenstein
+            </span>
+            <span className={heroRightRoleStyles()}>
+              Web Developer
+            </span>
           </div>
           {/* Beschreibungstext */}
           <p className={heroRightTextStyles()}>

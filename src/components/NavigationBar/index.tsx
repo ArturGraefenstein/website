@@ -1,9 +1,4 @@
-import {
-  navBarStyles,
-  navItemStyles,
-  navIconStyles,
-  navLabelStyles,
-} from "./NavigationBar.styles";
+import { navBarStyles, navItemStyles, navIconStyles, navLabelStyles } from "./NavigationBar.styles";
 
 const navItems = [
   { label: "About me", icon: "user" },
@@ -16,7 +11,10 @@ const navItems = [
 const NavigationBar = () => (
   <nav className={navBarStyles()}>
     {navItems.map((item) => (
-      <div key={item.label} className={navItemStyles()}>
+      <div
+        key={item.label}
+        className={navItemStyles()}
+      >
         {/* Icon-Placeholder, später SVG/Icon-Komponente einfügen */}
         <span className={navIconStyles()}>
           {item.icon.charAt(0).toUpperCase()}

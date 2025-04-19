@@ -1,11 +1,7 @@
 import Logo from "./Logo";
 import SocialMediaBar from "./SocialMediaBar";
 import Divider from "./Divider";
-import {
-  headerStyles,
-  headerInnerStyles,
-  headerLogoBarStyles,
-} from "./Header.styles";
+import { headerStyles, headerInnerStyles, headerLogoBarStyles } from "./Header.styles";
 
 const Header = () => (
   <header className={headerStyles()}>

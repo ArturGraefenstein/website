@@ -1,8 +1,4 @@
-import {
-  logoContainerStyles,
-  logoCStyles,
-  logoTextStyles,
-} from "./Logo.styles";
+import { logoContainerStyles, logoCStyles, logoTextStyles } from "./Logo.styles";
 
 const Logo = () => (
   <div className={logoContainerStyles()}>

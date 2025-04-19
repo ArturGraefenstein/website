@@ -1,3 +1,10 @@
+import {
+  socialBarStyles,
+  socialLinkStyles,
+  socialLinkTextStyles,
+  socialIconStyles,
+} from "./SocialMediaBar.styles";
+
 const socialLinks = [
   {
     name: "Github",
@@ -51,17 +58,17 @@ const socialLinks = [
 ];
 
 const SocialMediaBar = () => (
-  <div className="flex flex-row gap-8">
+  <div className={socialBarStyles()}>
     {socialLinks.map((link) => (
       <a
         key={link.name}
         href={link.href}
-        className="flex flex-row items-center gap-2 text-white hover:text-[#12F7D6]"
+        className={socialLinkStyles()}
         target="_blank"
         rel="noopener noreferrer"
       >
-        {link.icon}
-        <span className="text-base font-mono">{link.name}</span>
+        <span className={socialIconStyles()}>{link.icon}</span>
+        <span className={socialLinkTextStyles()}>{link.name}</span>
       </a>
     ))}
   </div>
