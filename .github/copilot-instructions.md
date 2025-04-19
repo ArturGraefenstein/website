@@ -20,7 +20,8 @@
 - Code Struktur:
   - Componenten:
     - Jede Komponente bekommt einen ordner.
-    - Im Ordner existieren 4 Files. my-component.component.tsx, my-component.types.ts, my-component.styles.ts und index.ts.
+    - Im Ordner existieren 4 Files. my-component.component.tsx, my-component.types.ts, my-component.styles.ts, my-component.stories.tsx und index.ts.
+    - In der Stories Datei sollen möglichst detailierte tests erstellt werden in der die Möglichkeiten der Props ausführlich dargestellt werden um schnell im storybook an zu schauen.
     - Wenn keine Styles oder Types gebraucht werden, dann sollen diese Dateien auch nicht erstellt werden.
     - die index.ts exportiert alles aus den component und den types files.
     - ALLE types wir props etc. kommen in die types.ts datei.
