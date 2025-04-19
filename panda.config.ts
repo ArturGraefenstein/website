@@ -19,7 +19,8 @@ export default defineConfig({
           background: { value: "#43454D" },
         },
         fonts: {
-          body: { value: `"IBM Plex Mono", monospace` }
+          mono: { value: `"IBM Plex Mono", monospace` },
+          ubuntu: { value: `"Ubuntu", sans-serif` }
         },
         spacing: {},
         sizes: {},

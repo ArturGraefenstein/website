@@ -565,6 +565,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@fontsource/ubuntu@npm:5.2.5":
+  version: 5.2.5
+  resolution: "@fontsource/ubuntu@npm:5.2.5"
+  checksum: 10c0/c57e0478f3161e2b90e967ebda15d61a293b4d063f5e248be8c4aed9e4a067c8e9ae8fe0c58084e29edd9b9c884852c096ff10f13706ac269debafd46a1da2d9
+  languageName: node
+  linkType: hard
+
 "@isaacs/cliui@npm:^8.0.2":
   version: 8.0.2
   resolution: "@isaacs/cliui@npm:8.0.2"
@@ -2091,6 +2098,7 @@ __metadata:
     "@biomejs/biome": "npm:^1.9.4"
     "@chromatic-com/storybook": "npm:^3"
     "@fontsource/ibm-plex-mono": "npm:5.2.5"
+    "@fontsource/ubuntu": "npm:5.2.5"
     "@pandacss/dev": "npm:0.53.4"
     "@pandacss/preset-base": "npm:^0.53.4"
     "@pandacss/preset-panda": "npm:0.53.4"

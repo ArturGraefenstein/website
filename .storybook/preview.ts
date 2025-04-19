@@ -1,6 +1,8 @@
 import "../src/index.css";
 import "@fontsource/ibm-plex-mono/400.css";
 import "@fontsource/ibm-plex-mono/500.css";
+import "@fontsource/ubuntu/400.css";
+import "@fontsource/ubuntu/500.css";
 import type { Preview } from '@storybook/react';
 
 const preview: Preview = {
