@@ -19,8 +19,9 @@
 - Verwende immer yarn als packagemanager.
 - Wenn du einen type inportierst, verwende den type import.
 - Beachte alle Biome lint regeln.
-- Bachte die types von PandaCSS. Nicht alle styleProps können einen String akzeptieren wie z.B. die "transisiton" Prop.
-- Wenn die Config geändert wird, prüfe ob auch etwas an der storybook config geändert werden muss um gleiche Ergebnisse zu erzielen zwischen web und storybook
+- Bachte die types von PandaCSS. Nicht alle styleProps können einen String akzeptieren wie z.B. die "transisiton" Prop. Beachte dafür das Design system welches in panda.config.js configuriert ist, und verwende die Diesign Tokens wenn möglich.
+- Wenn die Config geändert wird, prüfe ob auch etwas an der storybook config geändert werden muss um gleiche Ergebnisse zu erzielen zwischen web und storybook.
+- Versuche immer vorhandene Komponenten zu verwenden anstatt neue zu erstellen.
 - führe keine PandaCSS commands aus weil die styles und types per watch ständig neu generiert werden.
 - Code Struktur:
   - Componenten:

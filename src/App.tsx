@@ -1,11 +1,10 @@
-import { Logo } from "./components/logo";
+import { hstack } from "../styled-system/patterns";
+import { Navbar } from "./components/navbar";
 
-function App() {
+export function App() {
   return (
-    <div>
-      <Logo />
+    <div className={hstack()}>
+      <Navbar />
     </div>
   );
 }
-
-export default App;

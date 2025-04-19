@@ -16,7 +16,7 @@ export default defineConfig({
     extend: {
       tokens: {
         colors: {
-          background: { value: "#43454D" },
+          background: { value: "#292f36" },
         },
         fonts: {
           mono: { value: `"IBM Plex Mono", monospace` },
