@@ -785,7 +785,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@pandacss/preset-base@npm:0.53.4":
+"@pandacss/preset-base@npm:0.53.4, @pandacss/preset-base@npm:^0.53.4":
   version: 0.53.4
   resolution: "@pandacss/preset-base@npm:0.53.4"
   dependencies:
@@ -1225,6 +1225,7 @@ __metadata:
   dependencies:
     "@biomejs/biome": "npm:^1.9.4"
     "@pandacss/dev": "npm:0.53.4"
+    "@pandacss/preset-base": "npm:^0.53.4"
     "@pandacss/preset-panda": "npm:0.53.4"
     "@types/react": "npm:^19.1.2"
     "@types/react-dom": "npm:^19.1.2"
@@ -1491,14 +1492,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"electron-to-chromium@npm:^1.5.4":
-  version: 1.5.139
-  resolution: "electron-to-chromium@npm:1.5.139"
-  checksum: 10c0/1b468c0c02a38322261b50b12ed090ff792a0d2ea24f299368babd484d5b81829528540463158572a3524fd835014d877d6c4bf097509bdb13ca696609b04aca
-  languageName: node
-  linkType: hard
-
-"electron-to-chromium@npm:^1.5.73":
+"electron-to-chromium@npm:^1.5.4, electron-to-chromium@npm:^1.5.73":
   version: 1.5.137
   resolution: "electron-to-chromium@npm:1.5.137"
   checksum: 10c0/678613e0a3d023563a1acca4d8103a69d389168efeb3b78c1fcc683ed0778d81bfb00c6f621d6535f3fa9530664fc948fc8f2ed27e7548d46cd3987d4b0add6a

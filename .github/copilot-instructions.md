@@ -16,6 +16,7 @@
 - Bevorzuge wenn möglich Types over Interface.
 - Alle Dateien und Ordner werden in kebab-case geschrieben.
 - Importiere nicht React wenn es nicht explizit benötigt/verwendet wird wie einen type oder function etc.!
+- Verwende immer yarn als packagemanager
 - Code Struktur:
   - Componenten:
     - Jede Komponente bekommt einen ordner.
