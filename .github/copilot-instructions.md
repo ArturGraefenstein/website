@@ -17,6 +17,7 @@
 - Alle Dateien und Ordner werden in kebab-case geschrieben.
 - Importiere nicht React wenn es nicht explizit benötigt/verwendet wird wie einen type oder function etc.!
 - Verwende immer yarn als packagemanager
+- Wenn die Config geändert wird, prüfe ob auch etwas an der storybook config geändert werden muss um gleiche Ergebnisse zu erzielen zwischen web und storybook
 - führe keine PandaCSS commands aus weil die styles und types per watch ständig neu generiert werden.
 - Code Struktur:
   - Componenten:

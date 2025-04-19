@@ -5,6 +5,6 @@
   background-color: var(--colors-background);
 }
 
-* {
+body {
   font-family: var(--fonts-body);
-}
+ }

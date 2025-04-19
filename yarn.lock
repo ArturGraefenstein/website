@@ -558,6 +558,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@fontsource/ibm-plex-mono@npm:5.2.5":
+  version: 5.2.5
+  resolution: "@fontsource/ibm-plex-mono@npm:5.2.5"
+  checksum: 10c0/dfc29118e298474438249b3bd7ff8f4e968e14a2223017e3fea3a22d78d710995da204531cad59af96abed5ae6db924c5312ff2b7e820b79958a66ba02272ac2
+  languageName: node
+  linkType: hard
+
 "@isaacs/cliui@npm:^8.0.2":
   version: 8.0.2
   resolution: "@isaacs/cliui@npm:8.0.2"
@@ -2083,6 +2090,7 @@ __metadata:
   dependencies:
     "@biomejs/biome": "npm:^1.9.4"
     "@chromatic-com/storybook": "npm:^3"
+    "@fontsource/ibm-plex-mono": "npm:5.2.5"
     "@pandacss/dev": "npm:0.53.4"
     "@pandacss/preset-base": "npm:^0.53.4"
     "@pandacss/preset-panda": "npm:0.53.4"
