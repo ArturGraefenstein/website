@@ -1,10 +1,5 @@
-import { hstack } from "../styled-system/patterns";
-import { Navbar } from "./components/navbar";
+import { HomePage } from "./pages/home";
 
 export function App() {
-  return (
-    <div className={hstack()}>
-      <Navbar />
-    </div>
-  );
+  return <HomePage />;
 }

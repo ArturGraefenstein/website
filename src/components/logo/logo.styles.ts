@@ -17,7 +17,3 @@ export const logoTextClass = css({
 export const bracketClass = css({
 	color: "#12F7D6"
 });
-
-export const nameClass = css({
-	color: "#FFFFFF"
-});

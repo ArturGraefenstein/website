@@ -10,7 +10,6 @@ export const Navbar = () => {
 
         <div className={menuClass}>
           <NavbarButton label="Home" />
-          <NavbarButton label="Blog" />
         </div>
       </div>
     </nav>

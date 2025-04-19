@@ -2,7 +2,7 @@ import { css } from "../../../styled-system/css";
 import { hstack } from "../../../styled-system/patterns";
 
 export const navbarClass = css({
-	padding: "64px 0px",
+	padding: "64px 32px",
 	width: "[100%]",
 	borderBottom: "1px solid #43454D",
 });
