@@ -25,4 +25,5 @@
     - ALLE types wir props etc. kommen in die types.ts datei.
     - ALLE styles werden in der styles.ts datei definiert und dafür ausschließlich PandaCSS verwendet.
     - Es werden keine Inline styles verwendet.
+    - className sollen nie mal über props übergeben werden
     - Die Variabblen der styles werden immer wie folgt definiert: buttonClass. Also mit einem Class postfix. Verwende nicht "styles" im Namen.
