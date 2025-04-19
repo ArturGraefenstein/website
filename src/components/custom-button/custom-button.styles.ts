@@ -1,6 +1,6 @@
 import { cva } from "styled-system/css";
 
-export const buttonStyles = cva({
+export const buttonClass = cva({
 	base: {
 		display: "flex",
 		flexDirection: "row",

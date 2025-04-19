@@ -1,0 +1,21 @@
+# Copilot Prompt Regeln
+
+- Antworte immer auf Deutsch.
+- Verwende keine externen Libraries ohne Rückfrage.
+- Codeänderungen immer als Patch, nicht als kompletten Codeblock.
+- Halte dich an das bestehende Designsystem.
+- Orientiere dich bei allen Aufgaben an dieser Datei, falls vorhanden.
+- Bei Unklarheiten immer Rückfrage halten.
+- Schreibe klaren, wartbaren und dokumentierten Code.
+- Nutze bestehende Komponenten und Strukturen, bevor du neue erstellst.
+- Schreibe keine sensiblen Daten in den Code.
+- Verwende keine default exports
+- Code Struktur:
+  - Componenten:
+    - Jede Komponente bekommt einen ordner
+    - Im Ordner existieren 4 Files. my-component.component.tsx, my-component.types.ts, my-component.styles.ts und index.ts
+    - Wenn keine Styles oder Types gebraucht werden, dann sollen diese Dateien auch nicht erstellt werden
+    - die index.ts exportiert alles aus den component und den types files
+    - ALLE types wir props etc. kommen in die types.ts datei
+    - ALLE styles werden in der styles.ts datei definiert und dafür ausschließlich PandaCSS verwendet
+    - Es werden keine Inline styles verwendet
