@@ -10,7 +10,7 @@
     "format": "biome format . --write",
     "preview": "vite preview",
     "prepare": "panda codegen",
-    "panda": "panda --watch",
+    "panda": "panda codegen --watch",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build"
   },

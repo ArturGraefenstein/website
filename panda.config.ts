@@ -17,6 +17,11 @@ export default defineConfig({
       tokens: {
         colors: {
           background: { value: "#292f36" },
+          brand: {
+            1: { value: "#12F7D6" },
+            2: { value: "#98FAEC" }
+          },
+          white: { value: "#fff" },
         },
         fonts: {
           mono: { value: `"IBM Plex Mono", monospace` },

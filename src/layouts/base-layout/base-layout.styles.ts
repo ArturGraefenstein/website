@@ -1,6 +1,6 @@
-import { hstack } from "../../../styled-system/patterns";
+import { vstack } from "../../../styled-system/patterns";
 
-export const wrapperClass = hstack({
+export const wrapperClass = vstack({
   width: "[80%]",
   margin: "auto"
 });
