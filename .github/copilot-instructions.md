@@ -1,17 +1,18 @@
 # Copilot Prompt Regeln
 
+- Wenn ich dir eine Anweisung gebe, führe sie unbedingt aus und frage nicht ständig nach ob du es machen sollst!
 - Antworte immer auf Deutsch.
 - Verwende keine externen Libraries ohne Rückfrage.
 - Codeänderungen immer als Patch, nicht als kompletten Codeblock.
 - Halte dich an das bestehende Designsystem.
 - Orientiere dich bei allen Aufgaben an dieser Datei, falls vorhanden.
-- Bei Unklarheiten immer Rückfrage halten.
 - Schreibe klaren, wartbaren und dokumentierten Code.
 - Nutze bestehende Komponenten und Strukturen, bevor du neue erstellst.
 - Schreibe keine sensiblen Daten in den Code.
 - Verwende immer React functional components.
 - Verwende keine default exports.
 - Schreibe keine Kommentare!
+- Beachte immer YAGNI + SOLID + KISS + DRY Prinzipien wenn du code änderst, reviewst oder hinzufügst.
 - Bevorzuge wenn möglich Types over Interface.
 - Alle Dateien und Ordner werden in kebab-case geschrieben.
 - Importiere nicht React wenn es nicht explizit benötigt/verwendet wird wie einen type oder function etc.!

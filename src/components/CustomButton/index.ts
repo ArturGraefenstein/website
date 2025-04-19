@@ -1,3 +1,0 @@
-// Exporte für CustomButton-Komponente und zugehörige Types
-export * from "./custom-button.component";
-export * from "./custom-button.types";
