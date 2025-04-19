@@ -17,6 +17,7 @@
 - Alle Dateien und Ordner werden in kebab-case geschrieben.
 - Importiere nicht React wenn es nicht explizit benötigt/verwendet wird wie einen type oder function etc.!
 - Verwende immer yarn als packagemanager
+- führe keine PandaCSS commands aus weil die styles und types per watch ständig neu generiert werden.
 - Code Struktur:
   - Componenten:
     - Jede Komponente bekommt einen ordner.

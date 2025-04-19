@@ -15,8 +15,12 @@ export default defineConfig({
   theme: {
     extend: {
       tokens: {
-        colors: {},
-        fonts: {},
+        colors: {
+          background: { value: "#43454D" },
+        },
+        fonts: {
+          body: { value: "monospace" }
+        },
         spacing: {},
         sizes: {},
       },

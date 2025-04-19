@@ -2,5 +2,9 @@
 @layer reset, base, tokens, recipes, utilities;
 
 :root{
-  background-color: #43454D;
+  background-color: var(--colors-background);
+}
+
+* {
+  font-family: var(--fonts-body);
 }
