@@ -20,11 +20,15 @@ export const sectionWrapperClass = vstack({
 })
 
 export const titleClass = css({
-	fontSize: "64px",
+	fontSize: "48px",
+	lineHeight: "54px",
 	whiteSpace: "pre-line",
-	lineHeight: "72px",
 	color: "white",
-	marginLeft: "[16px]"
+	marginLeft: "[16px]",
+	md: {
+		fontSize: "64px",
+		lineHeight: "72px",
+	}
 })
 
 export const nameClass = css({
