@@ -39,8 +39,8 @@ export const htmlTagClass = css({
 })
 
 export const paragraphClass = css({
-	fontSize: "16px",
-	lineHeight: "20px",
+	fontSize: "18px",
+	lineHeight: "22px",
 	color: "white",
 	marginLeft: "[16px]",
 	maxWidth: "[600px]",

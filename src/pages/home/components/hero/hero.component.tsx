@@ -27,9 +27,16 @@ export const Hero = () => {
         <div className={sectionWrapperClass}>
           <span className={htmlTagClass}>{"<p>"}</span>
           <p className={paragraphClass}>
-            I’m genuinely excited about mobile and web development. <br />
-            Creating mobile and web apps that bring ideas to life is what I love
-            most.
+            Bringing ideas to life has been at the heart of my work for many
+            years. I’ve had the chance to contribute to a wide range of projects
+            — always with a focus on quality, clarity, and collaboration. I
+            enjoy solving complex problems and working with teams that care
+            about making an impact.
+            <br />
+            <br />I live in Germany with my wife and our wonderful two kids.
+            Being a dad is one of the greatest joys in my life — I love spending
+            time with my family, playing and laughing together. I believe in
+            God, and that belief shapes how I live, work, and treat others.
           </p>
           <span className={htmlTagClass}>{"</p>"}</span>
         </div>
