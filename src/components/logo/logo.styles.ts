@@ -7,7 +7,7 @@ export const logoContainerClass = css({
 });
 
 export const logoTextClass = css({
-	fontFamily: "IBM Plex Mono",
+	fontFamily: "mono",
 	fontWeight: "500",
 	fontSize: "32px",
 	lineHeight: "1.3125em",
@@ -15,5 +15,5 @@ export const logoTextClass = css({
 });
 
 export const bracketClass = css({
-	color: "#12F7D6"
+	color: "brand.1"
 });
