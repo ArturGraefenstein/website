@@ -2,7 +2,7 @@ import { cva } from '../../../styled-system/css';
 
 export const navbarButtonClass = cva({
 	base: {
-		fontFamily: 'IBM Plex Mono',
+		fontFamily: 'mono',
 		fontWeight: '400',
 		fontSize: '24px',
 		lineHeight: '1.33em',
@@ -13,12 +13,12 @@ export const navbarButtonClass = cva({
 	variants: {
 		isActive: {
 			true: {
-				color: '#12F7D6',
+				color: "brand.1",
 			},
 			false: {
-				color: '#FFFFFF',
+				color: "white",
 				_hover: {
-					color: '#12F7D6',
+					color: "brand.1",
 				},
 			},
 		},
